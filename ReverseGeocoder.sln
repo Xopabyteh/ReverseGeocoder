@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeocoder", "src\ReverseGeocoder\ReverseGeocoder.csproj", "{70EEB227-F62D-4ECC-911E-07B643D1FA27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeocoding.Tests", "ReverseGeocoder.Tests.Fixed\ReverseGeocoding.Tests.csproj", "{76AD20BA-2DBD-4F02-B415-1B15D58EF0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeocoder.Tests", "tests\ReverseGeocoder.Tests\ReverseGeocoder.Tests.csproj", "{250E57FB-C8EA-4810-AAC1-D7BB251DA29A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeocoding", "ReverseGeocoder.NetCore\ReverseGeocoding.csproj", "{9D91AA77-F5BF-4DCB-81BC-9C8790277C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeocoding.Benchmarks", "ReverseGeocoder.Benchmarks\ReverseGeocoding.Benchmarks.csproj", "{94623411-84AB-453E-ABE0-6341E27EA1A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70EEB227-F62D-4ECC-911E-07B643D1FA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70EEB227-F62D-4ECC-911E-07B643D1FA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70EEB227-F62D-4ECC-911E-07B643D1FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70EEB227-F62D-4ECC-911E-07B643D1FA27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{250E57FB-C8EA-4810-AAC1-D7BB251DA29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{250E57FB-C8EA-4810-AAC1-D7BB251DA29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{250E57FB-C8EA-4810-AAC1-D7BB251DA29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{250E57FB-C8EA-4810-AAC1-D7BB251DA29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AD20BA-2DBD-4F02-B415-1B15D58EF0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AD20BA-2DBD-4F02-B415-1B15D58EF0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AD20BA-2DBD-4F02-B415-1B15D58EF0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AD20BA-2DBD-4F02-B415-1B15D58EF0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D91AA77-F5BF-4DCB-81BC-9C8790277C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D91AA77-F5BF-4DCB-81BC-9C8790277C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D91AA77-F5BF-4DCB-81BC-9C8790277C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D91AA77-F5BF-4DCB-81BC-9C8790277C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94623411-84AB-453E-ABE0-6341E27EA1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94623411-84AB-453E-ABE0-6341E27EA1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94623411-84AB-453E-ABE0-6341E27EA1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94623411-84AB-453E-ABE0-6341E27EA1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34980E5D-CF2C-4DD2-B709-95F22BECA84E}
 	EndGlobalSection
 EndGlobal
